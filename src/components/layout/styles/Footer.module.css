@@ -1,0 +1,83 @@
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+  .footerContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h5 {
+    color: #949494;
+    margin: 1px 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .footerLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerBrandLogo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .mapaSiteFooter,
+  .ramosFooter,
+  .contatoFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mapaSiteFooter h1,
+  .ramosFooter h1,
+  .contatoFooter h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+  }
+
+  .contatoFooter h4 {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  .footerBrandLogo {
+    width: 100px;
+  }
+}

@@ -1,0 +1,78 @@
+.mainBanner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slidesContainer {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.item {
+  min-width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 20% 320px;
+}
+
+.headerText strong {
+  color: var(--brand-main-color);
+}
+
+.headerText h2 {
+  font-size: 62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--brand-main-color);
+  line-height: 72px;
+  max-width: 60%;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 30px;
+  color: var(--black-font-color);
+  text-align: left;
+}
+.owlDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  gap: 10px;
+}
+
+.owlDot {
+  width: 12px;
+  height: 12px;
+  background-color: #ad212162;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.owlDot:hover {
+  background-color: var(--brand-main-color-hover);
+  transform: scale(1.2);
+}
+
+.owlDot.active {
+  background-color: var(--brand-main-color);
+}
+
+@media (max-width: 768px) {
+  .headerText h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .item {
+    padding: 160px 10%;
+  }
+}
