@@ -11,8 +11,6 @@ export default function Footer() {
               className={styles.footerBrandLogo}
               src={brandLogo}
               alt="Logo Escoteiros de Pirabeiraba"
-              width={70}
-              height={"auto"}
             />
           </div>
           <div className={styles.mapaSiteFooter}>
