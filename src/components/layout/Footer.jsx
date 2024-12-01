@@ -6,9 +6,9 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
-          <div className={styles.headerLogoContainer}>
+          <div className={styles.footerLogoContainer}>
             <img
-              className={styles.headerBrandLogo}
+              className={styles.footerBrandLogo}
               src={brandLogo}
               alt="Logo Escoteiros de Pirabeiraba"
               width={70}

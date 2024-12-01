@@ -21,13 +21,13 @@
       font-weight: normal; 
     }
     
-    .headerLogoContainer {
+    .footerLogoContainer {
       display: flex;
       align-items: center;
       justify-content: center;
     }
     
-    .headerBrandLogo {
+    .footerBrandLogo {
       width: 120px; 
       height: auto; 
       object-fit: contain;
