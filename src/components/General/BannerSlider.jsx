@@ -120,20 +120,20 @@ const BannerSlider = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className={styles.owlDots}>
-        {slides.map((_, index) => (
-          <span
-            key={index}
-            className={`${styles.owlDot} ${
-              index === currentIndex ? styles.active : ""
-            }`}
-            onClick={() => setCurrentIndex(index)}
-            role="button"
-            aria-label={`Go to slide ${index + 1}`}
-            tabIndex={0}
-          />
-        ))}
+        <div className={styles.owlDots}>
+          {slides.map((_, index) => (
+            <span
+              key={index}
+              className={`${styles.owlDot} ${
+                index === currentIndex ? styles.active : ""
+              }`}
+              onClick={() => setCurrentIndex(index)}
+              role="button"
+              aria-label={`Go to slide ${index + 1}`}
+              tabIndex={0}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

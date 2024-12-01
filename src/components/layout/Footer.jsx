@@ -1,5 +1,6 @@
 import styles from "./styles/Footer.module.css";
 import brandLogo from "../../assets/brand-logo-footer.webp";
+import Button from "../General/Button";
 
 export default function Footer() {
   return (
@@ -32,7 +33,7 @@ export default function Footer() {
             <h1>Contato</h1>
             <h5>Gostaria de saber mais ou tem alguma dúvida?</h5>
             <h5>Envie-nos uma mensagem!</h5>
-            <button className={styles.contactButton}>Fale Conosco</button>
+            <Button>Fale Conosco</Button>
           </div>
         </div>
       </footer>

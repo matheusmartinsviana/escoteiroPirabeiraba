@@ -6,6 +6,7 @@
   color: white;
   cursor: pointer;
   transition: all ease-in-out 0.3s;
+  max-width: 200px;
 }
 
 .styledButton:hover {
