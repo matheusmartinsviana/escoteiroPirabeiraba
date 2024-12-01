@@ -2,6 +2,7 @@ import BannerSlider from "../components/Sections/BannerSlider";
 import Branches from "../components/Sections/Branches";
 import OurHistory from "../components/Sections/OurHistory";
 import OurMisson from "../components/Sections/ourMission";
+import Projects from "../components/Sections/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <OurHistory />
       <OurMisson />
       <Branches />
+      <Projects />
     </>
   );
 }

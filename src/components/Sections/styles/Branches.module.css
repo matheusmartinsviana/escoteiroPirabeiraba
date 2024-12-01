@@ -4,11 +4,14 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 30px 0;
+  padding: 30px;
 }
 
 .leftContent {
-  flex: 1;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
   min-width: 280px;
   max-width: 400px;
   text-align: left;
@@ -47,14 +50,6 @@
 
 .itemHeader img {
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.2));
-}
-
-.item h3 {
-  margin: 0 0 5px;
-}
-
-.item p {
-  margin: 0;
 }
 
 @media (max-width: 768px) {
