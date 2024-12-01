@@ -1,5 +1,6 @@
 import BannerSlider from "../components/Sections/BannerSlider";
 import Branches from "../components/Sections/Branches";
+import Contact from "../components/Sections/Contact";
 import OurHistory from "../components/Sections/OurHistory";
 import OurMisson from "../components/Sections/ourMission";
 import Projects from "../components/Sections/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
       <Branches />
       <Projects />
       <Volunteer />
+      <Contact />
     </>
   );
 }
