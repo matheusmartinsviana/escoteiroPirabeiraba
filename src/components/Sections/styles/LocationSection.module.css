@@ -1,0 +1,28 @@
+.locationHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black-font-color);
+  flex-direction: column;
+  padding: 60px 0;
+}
+.locationHeader p {
+  margin-bottom: 30px;
+}
+
+.mockContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mockMap {
+  width: 600px;
+  height: 450px;
+  background-color: #f0f0f0;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
