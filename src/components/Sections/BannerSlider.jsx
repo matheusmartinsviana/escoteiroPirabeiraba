@@ -1,9 +1,8 @@
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./styles/BannerSlider.module.css";
 
-import banner1 from "../../assets/img1.webp";
-import banner2 from "../../assets/img1.webp";
-import Button from "./Button";
+import { default as banner1, default as banner2 } from "../../assets/img1.webp";
+import Button from "../General/Button";
 const slides = [
   {
     id: 1,
