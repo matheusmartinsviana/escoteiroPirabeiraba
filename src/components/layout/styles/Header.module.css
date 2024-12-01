@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.headerLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogoContainer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  max-width: 300px;
+}
+
+.headerLogoContainer h1 {
+  font-weight: 850;
+  font-size: 1.5rem;
+  color: var(--black-font-color);
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navItens {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--black-font-color);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: var(--black-font-color);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .headerLogoContainer {
+    text-align: center;
+  }
+  .header button {
+    display: none;
+  }
+  .navItens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #eeeeee;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px;
+  }
+
+  .navActive {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 10;
+}
+
+.overlayActive {
+  display: block;
+}
+
+.animatedMenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 50px;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  left: -100%;
+  top: 0;
+  text-align: start;
+  height: 100vh;
+  width: 60%;
+  transition: 0.4s ease-in-out;
+  background-color: #f5f5f5;
+  z-index: 20;
+}
+
+.menuActive {
+  left: 0;
+}
