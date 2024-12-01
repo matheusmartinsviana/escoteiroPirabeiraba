@@ -33,7 +33,7 @@ export default function Footer() {
           <div className={styles.contatoFooter}>
             <h1>Contato</h1>
             <h5>Gostaria de saber mais ou tem alguma dúvida?</h5>
-            <h5>Envie-nos uma mensagem</h5>
+            <h5>Envie-nos uma mensagem!</h5>
             <button className={styles.contactButton}>Fale Conosco</button>
           </div>
         </div>
