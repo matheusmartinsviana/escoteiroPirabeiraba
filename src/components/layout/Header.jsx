@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./styles/Header.module.css";
 import brandLogo from "../../assets/brand-logo.webp";
 import Button from "../General/Button";
@@ -10,6 +10,20 @@ export default function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  // Fecha o menu automaticamente em telas grandes
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <>
@@ -65,6 +79,7 @@ export default function Header() {
         </div>
       </header>
 
+      {/* Overlay */}
       <div
         className={`${styles.overlay} ${
           isMenuOpen ? styles.overlayActive : ""
@@ -72,6 +87,7 @@ export default function Header() {
         onClick={toggleMenu}
       ></div>
 
+      {/* Menu animado */}
       <div
         className={`${styles.animatedMenu} ${
           isMenuOpen ? styles.menuActive : ""
