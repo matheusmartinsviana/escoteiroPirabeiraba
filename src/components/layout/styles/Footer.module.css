@@ -1,0 +1,74 @@
+.footer {
+    background-color: #f9f9f9; 
+    padding: 20px;
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    .footerContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; 
+      gap: 20px; 
+      max-width: 1200px;
+      margin: 0 auto; 
+    }
+  
+    h5 {
+      color: #949494; 
+      margin: 1px 0; 
+      font-size: 16px; 
+      font-weight: normal; 
+    }
+    
+    .headerLogoContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .headerBrandLogo {
+      width: 120px; 
+      height: auto; 
+      object-fit: contain;
+    }
+    
+    .mapaSiteFooter,
+    .ramosFooter,
+    .contatoFooter {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .mapaSiteFooter h1,
+    .ramosFooter h1,
+    .contatoFooter h1 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #7B7B7B;
+    }
+    
+    .contatoFooter h4 {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .contactButton {
+      background-color: #AD2121;
+      color: #FFFFFF;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 166px;
+      height: 52px;
+    }
+    
+    .contactButton:hover {
+      background-color: darkred;
+    }
+}
+  
