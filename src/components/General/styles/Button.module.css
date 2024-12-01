@@ -1,0 +1,14 @@
+.styledButton {
+  background-color: var(--brand-main-color);
+  border: 0;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.styledButton:hover {
+  background-color: #ad2121de;
+  color: rgba(255, 255, 255, 0.904);
+}
