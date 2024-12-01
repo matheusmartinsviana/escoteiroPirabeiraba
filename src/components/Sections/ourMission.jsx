@@ -2,6 +2,8 @@ import styles from "./styles/OurMission.module.css";
 import icon1 from "../../assets/icon1.webp";
 import icon2 from "../../assets/icon2.webp";
 import icon3 from "../../assets/icon3.webp";
+import circleImage from "../../assets/girlmoreflag.webp";
+import Button from "../General/Button";
 export default function OurMisson() {
   return (
     <>
@@ -35,6 +37,20 @@ export default function OurMisson() {
             </p>
           </div>
         </div>
+      </section>
+      <section className={styles.ourTarget}>
+        <img src={circleImage} alt="" />
+        <article>
+          <h1>Formação de Cidadãos Plenos e Ativos</h1>
+          <p>
+            Nosso objetivo é contribuir para que os jovens desenvolvam seu
+            caráter e alcancem seu potencial completo em todas as áreas —
+            física, intelectual, social, afetiva e espiritual —, formando
+            cidadãos responsáveis e engajados, prontos para desempenhar um papel
+            positivo e útil em suas comunidades.
+          </p>
+          <Button>Saiba Mais</Button>
+        </article>
       </section>
     </>
   );

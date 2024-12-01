@@ -115,8 +115,8 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a className={styles.navLink} href="#alcateias">
-              Alcateias
+            <a className={styles.navLink} href="#ramos">
+              Ramos
             </a>
           </li>
           <li>
