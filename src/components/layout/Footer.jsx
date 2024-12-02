@@ -1,5 +1,5 @@
 import styles from "./styles/Footer.module.css";
-import brandLogo from "../../assets/brand-logo-footer.webp";
+import brandLogo from "../../assets/brand-logo.webp";
 import Button from "../General/Button";
 
 export default function Footer() {

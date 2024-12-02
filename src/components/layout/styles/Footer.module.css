@@ -30,7 +30,7 @@
   .footerBrandLogo {
     width: 120px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .mapaSiteFooter,
