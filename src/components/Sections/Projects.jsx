@@ -3,7 +3,7 @@ import img1 from "../../assets/Escoteiros.webp";
 export default function Projects() {
   return (
     <>
-      <header className={styles.headerProjects}>
+      <header id="atividades" className={styles.headerProjects}>
         <h2>Projetos e Eventos</h2>
         <p>Projetos sociais e Eventos Anuais</p>
       </header>

@@ -6,7 +6,7 @@ import arrowdown from "../../assets/arrowdown.webp";
 export default function Volunteer() {
   return (
     <>
-      <section className={styles.volunteerContainer}>
+      <section id="voluntario" className={styles.volunteerContainer}>
         <img src={img1} alt="" />
         <article>
           <h1>Seja Escoteiro</h1>
