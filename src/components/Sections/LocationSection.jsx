@@ -5,7 +5,6 @@ import styles from "./styles/LocationSection.module.css";
 export default function LocationSection() {
   const [cookieAccepted, setCookieAccepted] = useState(false);
 
-  // Check if the cookie consent is already stored in localStorage
   useEffect(() => {
     const cookieConsent = localStorage.getItem("cookieConsent");
     if (cookieConsent === "true") {
@@ -13,7 +12,6 @@ export default function LocationSection() {
     }
   }, []);
 
-  // Handle acceptance of cookies
   const handleAcceptCookies = () => {
     setCookieAccepted(true);
   };
@@ -21,7 +19,7 @@ export default function LocationSection() {
   return (
     <>
       {!cookieAccepted && <CookieConsent onAccept={handleAcceptCookies} />}
-      <div className={styles.locationHeader}>
+      <div id="localizacao" className={styles.locationHeader}>
         <h1>Nossa Localização</h1>
         <p>Venha nos visitar! Nossa sede está localizada em</p>
         {cookieAccepted ? (

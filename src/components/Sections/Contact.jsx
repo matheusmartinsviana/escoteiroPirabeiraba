@@ -34,7 +34,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className={styles.contactContainer}>
+      <section id="contato" className={styles.contactContainer}>
         <div className={styles.leftSide}>
           <img src={mailImage} alt="" />
           <h1>Contato</h1>

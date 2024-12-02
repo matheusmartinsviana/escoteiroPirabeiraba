@@ -5,7 +5,7 @@ import img2 from "../../assets/ohimg2.webp";
 const OurHistory = () => {
   return (
     <div className={styles.ourHistory}>
-      <div className={styles.textContainer}>
+      <div id="nossahistoria" className={styles.textContainer}>
         <h1>Nossa História</h1>
         <p className={styles.textp1}>
           O Grupo Escoteiro Pirabeiraba foi{" "}
