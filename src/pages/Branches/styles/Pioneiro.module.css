@@ -1,0 +1,41 @@
+#pioneiroContainer {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.subTitle {
+    text-align: center;
+    margin-top: 15px;
+}
+.subText {
+    text-align: justify;
+    margin-top: 25px;
+}
+strong {
+    color: #650b0bbe;
+}
+#line {
+    width: 450px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: rgb(169, 64, 64);
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.infoColor {
+    text-align: center;
+    font-family:cursive;
+    font-style: italic;
+    margin-top: 25px;
+    color: rgb(169, 64, 64);
+    font-weight: 600;
+}
+#voluntariado {
+    font-weight: 600;
+    color: rgb(119, 6, 6);
+}
+#displayInfo {
+    margin-left: 80px;
+    margin-right: 120px;
+    /* margin-right: 50px; */
+}
