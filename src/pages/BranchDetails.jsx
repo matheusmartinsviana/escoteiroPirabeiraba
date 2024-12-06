@@ -6,8 +6,10 @@ export default function BranchDetails() {
 
   return (
     <div className={styles.branchDetailsContainer}>
-      <h1 className={styles.title}>| Ramo {branch}</h1>
-
+      <header>
+        <h1 className={styles.title}>| Ramo {branch}</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </header>
       <div className={styles.photos}>
         <div className={styles.photo}>
           <img src="https://via.placeholder.com/300" alt="Descrição 1" />
