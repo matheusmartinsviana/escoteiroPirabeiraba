@@ -1,7 +1,16 @@
+import HeaderStyled from "../../components/Branches/HeaderStyled";
+
 export default function Pioneiro() {
   return (
     <>
-      <h1></h1>
+      <div className="branchDetailsContainer">
+        <HeaderStyled
+          branch={"Pioneiro"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+          }
+        />
+      </div>
     </>
   );
 }

@@ -1,7 +1,16 @@
+import HeaderStyled from "../../components/Branches/HeaderStyled";
+
 export default function Senior() {
   return (
     <>
-      <h1></h1>
+      <div className="branchDetailsContainer">
+        <HeaderStyled
+          branch={"Senior"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+          }
+        />
+      </div>
     </>
   );
 }
