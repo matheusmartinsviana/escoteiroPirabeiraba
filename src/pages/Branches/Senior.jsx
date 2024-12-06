@@ -20,19 +20,19 @@ export default function Senior() {
               <div className={styles.card}>
                 <div id={styles.desingCard1}>
                   <p className={styles.cardName}>Inteligencia emocional e mental</p>
-                  <img src={card1} alt="" />
+                  <img className={styles.imgSenior} src={card1} alt="" />
                 </div>
               </div>
               <div className={styles.card}>
                 <div id={styles.desingCard2}>
                   <p className={styles.cardName}>Trabalho em equipe</p>
-                  <img src={card2} alt="" />
+                  <img className={styles.imgSenior} src={card2} alt="" />
                 </div>
               </div>
               <div className={styles.card}>
                 <div id={styles.desingCard3}>
                   <p className={styles.cardName}>Crescimento pessoal</p>
-                  <img src={card3} alt="" />
+                  <img className={styles.imgSenior} src={card3} alt="" />
                 </div>
               </div>
           </div>
