@@ -1,15 +1,16 @@
 
-p .SubTitleLobo {
+/* #subTitleLobo {
     color: #ad2121;
-}
+} */
 
-#seniorContainer {
+#loboContainer {
     margin-left: 120px;
     margin-right: 120px;
 }
 .subTitle {
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 .subText {
     text-align: justify;
@@ -43,10 +44,8 @@ strong {
 #desingCard1 , #desingCard2 , #desingCard3 {
     text-align: center;
     border-radius: 10px;
-    /* background-color: #FFFFFF; */
-    /* border: 1px solid #949494; */
 }
-.imgSenior {
+.imgLobo {
     margin-top: 10px;
     width: 80px;
     margin-bottom: 10px;
@@ -56,7 +55,6 @@ strong {
     color: rgb(129, 19, 19);
     margin-top: 10px;
     margin-bottom: 6px;
-    /* text-transform: uppercase; */
 }
 #line {
     width: 450px;
