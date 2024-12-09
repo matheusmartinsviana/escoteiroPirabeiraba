@@ -5,10 +5,8 @@
 }
 
 
-div .branchDetailsContainer {
+.branchDetailsContainer {
   padding: 0px;
-  margin: 0;
-  height: auto;
   justify-content:flex-start;
 }
 

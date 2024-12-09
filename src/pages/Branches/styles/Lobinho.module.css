@@ -1,7 +1,9 @@
 
-/* #subTitleLobo {
+#subTitleLobo {
     color: #ad2121;
-} */
+    font-size: 18px;
+    font-weight: 600;
+}
 
 #loboContainer {
     margin-left: 120px;

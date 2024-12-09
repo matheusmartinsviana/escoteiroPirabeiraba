@@ -13,7 +13,7 @@ export default function Lobinho() {
           description={"Formando Pequenos Líderes e Grandes Sonhadores, Construindo um Caminho de Respeito, Alegria e Aprendizado."
           }
         />
-        </div>
+        
         <div id={styles.loboContainer}>
           <p className={styles.subTitle}>Este ramo reúne crianças com idade entre 6,5 à  10 anos, de ambos os sexos. 
             O principal objetivo nos lobinhos é trabalhar a <strong>socialização e a imaginação</strong>, tudo isso utilizando como “fundo de cena” 
@@ -42,20 +42,25 @@ export default function Lobinho() {
           </div>
           <div id={styles.line}></div>
 
-          <p id={styles.info}>Juntos, formam uma alcateia, que é dividida em pequenos grupos chamados matilhas.
+          <p className={styles.subText}>Juntos, formam uma alcateia, que é dividida em pequenos grupos chamados matilhas.
           Cada matilha tem de quatro a seis lobinhos, entre meninos e meninas, Fazem jogos, brincadeiras, vivem aventuras, 
-          aprendem sobre a importância da boa ação diária e ainda são incentivados a fazer sempre o nosso Melhor Possível; 
-          esse inclusive é o  lema do ramo lobinho.</p>
+          aprendem sobre a importância da boa ação diária e ainda são incentivados a fazer sempre o nosso <strong>'Melhor Possível' </strong>
+          esse inclusive é o  lema do ramo lobinho.</p><br />
 
-          
-          <p id="subTitleLobo">Tem sua própria lei, a Lei do Lobinho, que traz cinco artigos:</p>
-          
+          <p id={styles.subTitleLobo}>Tem sua própria lei, a Lei do Lobinho, que traz cinco artigos:</p>
 
-          <p className={styles.subText}><strong> -&gt; </strong> A tropa pode ser masculina (Tropa Sênior), feminina (Tropa Guia) ou mista, e é organizada em até quatro patrulhas, cada uma composta por 4 a 6 jovens. Cada patrulha escolhe um nome representativo, inspirado em acidentes geográficos conhecidos ou em tribos indígenas brasileiras.</p>
-          <p className={styles.subText}><strong> -&gt; </strong>Na Tropa Sênior/Guia, a relação entre a chefia e os membros se diferencia dos ramos Lobinho e Escoteiro. Aqui, os jovens possuem maturidade suficiente para traçar seus próprios caminhos, recebendo apenas o suporte necessário dos chefes. Esse ramo é conhecido por exigir maior esforço físico e mais conhecimento, proporcionando aos participantes uma evolução significativa.</p>
-          <p className={styles.subText}><strong> -&gt; </strong>Antes de completarem 18 anos, os jovens são direcionados ao Clã Pioneiro. Esse momento de transição é marcado pela "ponte", onde começam a se preparar para a nova etapa. A jornada é concluída com uma cerimônia de passagem, na qual se despedem da Tropa Sênior/Guia e celebram essa fase tão especial.</p>
+          <p className={styles.subText}><strong> -&gt; </strong>O Lobinho ouve sempre os Velhos Lobos;</p>
+          <p className={styles.subText}><strong> -&gt; </strong>O Lobinho pensa primeiro nos outros;</p>
+          <p className={styles.subText}><strong> -&gt; </strong>O Lobinho abre os olhos e os ouvidos;</p>
+          <p className={styles.subText}><strong> -&gt; </strong>O lobinho é limpo e está sempre alegre;</p>
+          <p className={styles.subText}><strong> -&gt; </strong>O Lobinho diz sempre a verdade.</p><br />
+
+          <p id={styles.info}>Antes de completar 11 anos são encaminhados para o <strong>Ramo Escoteiro.</strong> 
+          Nesse período, é feita uma Cerimônia de Passagem, para que possam nos despedir da alcateia.</p><br />
+
+        
         </div>
-      
+      </div>
     </>
   );
 }
