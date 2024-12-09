@@ -7,7 +7,7 @@ export default function Escoteiro() {
         <HeaderStyled
           branch={"Escoteiro"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            ""
           }
         />
       </div>
