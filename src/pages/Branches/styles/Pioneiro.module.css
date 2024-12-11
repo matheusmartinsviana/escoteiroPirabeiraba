@@ -1,41 +1,42 @@
-#pioneiroContainer {
-    margin-left: 120px;
-    margin-right: 120px;
+.pioneiroContainer {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
 }
+
 .subTitle {
-    text-align: center;
+    text-align: left;
+    display: flex;
     margin-top: 15px;
 }
+
 .subText {
+    display: flex;
     text-align: justify;
     margin-top: 25px;
 }
+
 strong {
     color: #650b0bbe;
 }
-#line {
-    width: 450px;
-    height: 3px;
-    border-radius: 4px;
-    background-color: rgb(169, 64, 64);
-    margin-left: 390px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 .infoColor {
+    display: flex;
     text-align: center;
-    font-family:cursive;
+    font-family: cursive;
     font-style: italic;
     margin-top: 25px;
     color: rgb(169, 64, 64);
     font-weight: 600;
 }
-#voluntariado {
+
+.voluntariado {
+    display: flex;
     font-weight: 600;
     color: rgb(119, 6, 6);
 }
-#displayInfo {
-    margin-left: 80px;
-    margin-right: 120px;
-    /* margin-right: 50px; */
+
+.displayInfo {
+    display: flex;
+    flex-direction: column;
 }
