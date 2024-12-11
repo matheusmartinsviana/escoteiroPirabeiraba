@@ -4,6 +4,13 @@
   color: var(--brand-main-color);
 }
 
+
+.branchDetailsContainer {
+  padding: 0px;
+  justify-content:flex-start;
+}
+
+
 .branchHeader {
   display: flex;
   flex-direction: column;
