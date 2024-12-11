@@ -3,7 +3,7 @@ import styles from "./styles/HeaderStyled.module.css";
 
 export default function HeaderStyled({ branch, description }) {
   return (
-    <header>
+    <header className={styles.branchHeader}>
       <h1 className={styles.title}>| Ramo {branch}</h1>
       <p>{description}</p>
     </header>
