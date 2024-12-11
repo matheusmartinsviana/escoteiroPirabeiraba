@@ -10,3 +10,9 @@
   justify-content:flex-start;
 }
 
+
+.branchHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
