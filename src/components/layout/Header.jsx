@@ -55,7 +55,7 @@ export default function Header() {
               width={70}
               height={"auto"}
             />
-            <h1>Escoteiros de Pirabeiraba</h1>
+            <h1>Grupo Escoteiro Pirabeiraba</ h1>
           </Link>
         </div>
         <nav className={styles.nav}>

@@ -13,19 +13,19 @@ export default function OurMisson() {
         </div>
         <div className={styles.cardsGroup}>
           <div className={styles.card}>
-            <img src={icon1} alt="" />
-            <h2>Educação e Valores</h2>
-            <p>
-              Contribuímos para a educação de jovens com um sistema de valores
-              que fortalece ética, responsabilidade e trabalho em equipe.
-            </p>
-          </div>
-          <div className={styles.card}>
             <img src={icon2} alt="" />
             <h2>Construção de um Mundo Melhor</h2>
             <p>
               Ajudamos jovens a se realizarem como indivíduos e incentivamos a
               participação ativa e construtiva na sociedade.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img src={icon1} alt="" />
+            <h2>Educação e Valores</h2>
+            <p>
+              Contribuir para a educação de crianças, adolescentes e jovens, mediante um sistema de valores,
+              baseado na Promessa e Lei Escoteiras, para que participem na construção de um mundo melhor, no qual se desenvolvam plenamente e desempenhem um papel construtivo na sociedade.
             </p>
           </div>
           <div className={styles.card}>
@@ -43,11 +43,9 @@ export default function OurMisson() {
         <article>
           <h1>Formação de Cidadãos Plenos e Ativos</h1>
           <p>
-            Nosso objetivo é contribuir para que os jovens desenvolvam seu
-            caráter e alcancem seu potencial completo em todas as áreas —
-            física, intelectual, social, afetiva e espiritual —, formando
-            cidadãos responsáveis e engajados, prontos para desempenhar um papel
-            positivo e útil em suas comunidades.
+            Nosso propósito é contribuir para que crianças, adolescentes e jovens assumam seu próprio desenvolvimento,
+            para que alcancem seu pleno potencial físico, intelectual, social, afetivo, espiritual, e do caráter, como cidadãos responsáveis e
+            membros ativos em suas comunidades local, nacional e internacional.
           </p>
           <Button>Saiba Mais</Button>
         </article>
