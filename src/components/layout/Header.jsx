@@ -166,7 +166,7 @@ export default function Header() {
       >
         <div className={styles.headerLogoContainer}>
           <Link to="/" onClick={closeMenu}>
-            <h1>Escoteiros de Pirabeiraba</h1>
+            <h1>Grupo Escoteiro Pirabeiraba</h1>
           </Link>
         </div>
         <ul className={styles.navItens}>
