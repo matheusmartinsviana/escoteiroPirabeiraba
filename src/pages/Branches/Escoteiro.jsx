@@ -1,14 +1,15 @@
 import HeaderStyled from "../../components/Branches/HeaderStyled";
 import styles from "./styles/Escoteiros.module.css";
-import card1 from "../../assets/desenvolvimento-pessoal.svg"
-import card2 from '../../assets/fortalecimento.svg'
-import card3 from "../../assets/espirito-de-equipe.svg"
+import card1 from "../../assets/thunderbolt.webp"
+import card2 from '../../assets/motivation.webp'
+import card3 from "../../assets/support.webp"
 
 
 export default function Escoteiro() {
   return (
     <>
       <div className="branchDetailsContainer">
+        <div className={styles.contentContainer}>
         <HeaderStyled
           branch={"Escoteiro"}
           description={
@@ -16,7 +17,6 @@ export default function Escoteiro() {
           }
         />
 
-        <div id={styles.tropaEscoteirosContainer}>
           <p className={styles.subTitle}>O Ramo Escoteiro acolhe adolescentes de ambos os sexos, com idades entre 11 e 14 anos, 
             em uma jornada voltada para o desenvolvimento da autonomia e fortalecimento do espírito de equipe. Fundamentado na 
             vida em patrulhas e na conexão com a natureza, este Ramo inspira seus participantes com o marco simbólico: 
@@ -24,27 +24,21 @@ export default function Escoteiro() {
           </p>
         
 
-          <div id={styles.displayCards}>
+          <div className={styles.displayCards}>
               <div className={styles.card}>
-                <div id={styles.desingCard1}>
-                  <p className={styles.cardName}>Desenvolvimento da Autonomia</p>
                   <img className={styles.imgEscoteiro} src={card1} alt="" />
-                </div>
+                  <p className={styles.cardName}>Desenvolvimento da Autonomia</p>
               </div>
               <div className={styles.card}>
-                <div id={styles.desingCard2}>
-                  <p className={styles.cardName}>Fortalecimento</p>
                   <img className={styles.imgEscoteiro} src={card2} alt="" />
-                </div>
+                  <p className={styles.cardName}>Fortalecimento</p>
               </div>
               <div className={styles.card}>
-                <div id={styles.desingCard3}>
-                  <p className={styles.cardName}>Espirito de Equipe</p>
                   <img className={styles.imgEscoteiro} src={card3} alt="" />
-                </div>
+                  <p className={styles.cardName}>Espirito de Equipe</p>
               </div>
           </div>
-          <div id={styles.line}></div>
+          <div className={styles.line}></div>
 
             <p className={styles.subText}><strong> -&gt; </strong>As patrulhas, pequenos grupos que atuam como verdadeiras famílias 
               escoteiras, possuem bastões e bandeirolas personalizados. Esses itens carregam as marcas de momentos especiais vividos 
