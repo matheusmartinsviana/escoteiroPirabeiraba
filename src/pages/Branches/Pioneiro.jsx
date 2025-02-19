@@ -1,11 +1,14 @@
 import HeaderStyled from "../../components/Branches/HeaderStyled";
 import styles from "./styles/Pioneiro.module.css";
+import card1 from "../../assets/support.webp"
+import card2 from '../../assets/inspiration.webp'
+import card3 from "../../assets/finish.webp"
 
 export default function Pioneiro() {
   return (
     <>
       <div className="branchDetailsContainer">
-        <div className={styles.pioneiroContainer}>
+        <div className={styles.contentContainer}>
           <HeaderStyled
             branch={"Pioneiro"}
             description={
@@ -19,6 +22,20 @@ export default function Pioneiro() {
             Mesmo estando no Clã, os membros já podem atuar como adultos voluntários em outros Ramos e participar ativamente na comunidade. Porém, quando se aproximam dos 21 anos, chega o momento de encerrar a jornada como jovens no Movimento Escoteiro.</p>
           <p className={styles.infoColor}>A Cerimônia de Partida simboliza essa transição, que pode ser seguida pela continuidade da vida escoteira, agora no papel de voluntário, como escotista ou dirigente!</p>
           <p className={styles.voluntariado}>Mas como atuar como um voluntário?</p>
+          <div className={styles.displayCards}>
+            <div className={styles.card}>
+              <img className={styles.imgSenior} src={card1} alt="" />
+              <p className={styles.cardName}>Propósito de "Servir"</p>
+            </div>
+            <div className={styles.card}>
+              <img className={styles.imgSenior} src={card2} alt="" />
+              <p className={styles.cardName}>Apoio Mútuo entre os Membros</p>
+            </div>
+            <div className={styles.card}>
+              <img className={styles.imgSenior} src={card3} alt="" />
+              <p className={styles.cardName}>Cerimônia de Partida e a passagem para o voluntariado</p>
+            </div>
+          </div>
           <div className={styles.displayInfo}>
             <p className={styles.subText}>Para isso, é necessário ter disponibilidade aos sábados (quando a maioria dos grupos se reúne), poder dedicar-se ao preparo das atividades (cerca de duas horas por semana), gostar do contato com a natureza, com crianças, adolescentes e jovens, além de compartilhar os Princípios e Valores do Movimento Escoteiro.</p>
             <p className={styles.infoColor}>
