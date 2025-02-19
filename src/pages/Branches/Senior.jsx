@@ -1,14 +1,14 @@
 import HeaderStyled from "../../components/Branches/HeaderStyled";
 import styles from "./styles/Senior.module.css";
-import card1 from "../../assets/mind.svg"
-import card2 from '../../assets/group.svg'
-import card3 from "../../assets/growth.svg"
+import card1 from "../../assets/23.webp"
+import card2 from '../../assets/13.webp'
+import card3 from "../../assets/33.webp"
 
 export default function Senior() {
   return (
     <>
       <div className="branchDetailsContainer">
-        <div className={styles.branchChild}>
+        <div className={styles.contentContainer}>
           <HeaderStyled
             branch={"Senior"}
             description={
@@ -18,16 +18,16 @@ export default function Senior() {
           <p className={styles.subTitle}>Este ramo reúne jovens com idade entre 15 à 17 anos, de ambos os sexos. As ativclassNameades realizadas dentro deste ramo são voltadas para o <strong>desenvolvimento físico</strong>, <strong>moral</strong>, <strong>intelectual</strong>, <strong>espiritual</strong> e por fim o <strong>crescimento social</strong>!</p>
           <div className={styles.displayCards}>
             <div className={styles.card}>
-              <p className={styles.cardName}>Inteligencia emocional e mental</p>
               <img className={styles.imgSenior} src={card1} alt="" />
+              <p className={styles.cardName}>Inteligencia emocional e mental</p>
             </div>
             <div className={styles.card}>
-              <p className={styles.cardName}>Trabalho em equipe</p>
               <img className={styles.imgSenior} src={card2} alt="" />
+              <p className={styles.cardName}>Trabalho em equipe</p>
             </div>
             <div className={styles.card}>
-              <p className={styles.cardName}>Crescimento pessoal</p>
               <img className={styles.imgSenior} src={card3} alt="" />
+              <p className={styles.cardName}>Crescimento pessoal</p>
             </div>
           </div>
           <div className={styles.line}></div>
