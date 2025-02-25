@@ -21,15 +21,15 @@ export default function Lobinho() {
               menino que aprendeu a sobreviver na selva com os lobos.</p>
             <div className={styles.displayCards}>
               <div className={styles.card}>
-                <img className={styles.imgLobo} src={card1} alt="" />
+                <img loading="lazy" className={styles.imgLobo} src={card1} alt="" />
                 <p className={styles.cardName}>Socialização</p>
               </div>
               <div className={styles.card}>
-                <img className={styles.imgLobo} src={card2} alt="" />
+                <img loading="lazy" className={styles.imgLobo} src={card2} alt="" />
                 <p className={styles.cardName}>Imaginação</p>
               </div>
               <div className={styles.card}>
-                <img className={styles.imgLobo} src={card3} alt="" />
+                <img loading="lazy" className={styles.imgLobo} src={card3} alt="" />
                 <p className={styles.cardName}>Respeito</p>
               </div>
             </div>

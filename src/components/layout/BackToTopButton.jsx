@@ -31,7 +31,7 @@ export default function BackToTopButton() {
         className={styles.backToTopButton}
         onClick={scrollToTop}
       >
-        <img src={arrow} alt="Ir para o topo" title="Ir para o topo" />
+        <img loading="lazy" src={arrow} alt="Ir para o topo" title="Ir para o topo" />
       </button>
     )
   );

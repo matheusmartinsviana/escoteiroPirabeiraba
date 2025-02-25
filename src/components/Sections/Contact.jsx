@@ -36,7 +36,7 @@ export default function Contact() {
     <>
       <section id="contato" className={styles.contactContainer}>
         <div className={styles.leftSide}>
-          <img src={mailImage} alt="" />
+          <img loading="lazy" src={mailImage} alt="" />
           <h1>Contato</h1>
           <p>
             Gostaria de saber mais ou tem alguma dúvida?{" "}

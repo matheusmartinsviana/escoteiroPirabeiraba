@@ -22,7 +22,7 @@ export default function CookieConsent({ onAccept }) {
     isVisible && (
       <div className={`${styles.banner} ${styles.show}`}>
         <div className={styles.content}>
-          <img src={cookieImg} alt="Cookies" className={styles.cookieImage} />
+          <img loading="lazy" src={cookieImg} alt="Cookies" className={styles.cookieImage} />
           <div className={styles.text}>
             <p>
               Nós usamos cookies para melhorar a sua experiência. Para

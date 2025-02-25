@@ -27,7 +27,7 @@ export default function Branches() {
           onClick={() => handleBranchClick("lobinho")}
         >
           <div className={styles.itemHeader}>
-            <img src={branchicon} width={48} height={"auto"} alt="" />
+            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
             <h3>Ramo Lobinho</h3>
           </div>
           <p>(6,5 - 10 anos)</p>
@@ -37,7 +37,7 @@ export default function Branches() {
           onClick={() => handleBranchClick("escoteiro")}
         >
           <div className={styles.itemHeader}>
-            <img src={branchicon} width={48} height={"auto"} alt="" />
+            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
             <h3>Ramo Escoteiro</h3>
           </div>
           <p>(11 - 14 anos)</p>
@@ -47,7 +47,7 @@ export default function Branches() {
           onClick={() => handleBranchClick("senior")}
         >
           <div className={styles.itemHeader}>
-            <img src={branchicon} width={48} height={"auto"} alt="" />
+            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
             <h3>Ramo Sênior</h3>
           </div>
           <p>(15 - 17 anos)</p>
@@ -57,7 +57,7 @@ export default function Branches() {
           onClick={() => handleBranchClick("pioneiro")}
         >
           <div className={styles.itemHeader}>
-            <img src={branchicon} width={48} height={"auto"} alt="" />
+            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
             <h3>Ramo Pioneiro</h3>
           </div>
           <p>(18 - 21 anos)</p>
