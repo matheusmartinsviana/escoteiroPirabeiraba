@@ -24,15 +24,15 @@ export default function Pioneiro() {
           <p className={styles.voluntariado}>Mas como atuar como um voluntário?</p>
           <div className={styles.displayCards}>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card1} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card1} alt="" />
               <p className={styles.cardName}>Propósito de "Servir"</p>
             </div>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card2} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card2} alt="" />
               <p className={styles.cardName}>Apoio Mútuo entre os Membros</p>
             </div>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card3} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card3} alt="" />
               <p className={styles.cardName}>Cerimônia de Partida e a passagem para o voluntariado</p>
             </div>
           </div>

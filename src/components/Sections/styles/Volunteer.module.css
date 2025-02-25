@@ -12,6 +12,11 @@
   font-size: 2rem;
   color: var(--black-font-color);
 }
+.img1 {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
 
 .volunteerContainer article p {
   max-width: 600px;

@@ -1,4 +1,4 @@
-import img1 from "../../assets/imgesc2.webp";
+import img1 from "../../assets/20241005_150834.webp";
 import img2 from "../../assets/imgesc1.webp";
 import styles from "./styles/Volunteer.module.css";
 import Button from "../General/Button";
@@ -7,7 +7,7 @@ export default function Volunteer() {
   return (
     <>
       <section id="voluntario" className={styles.volunteerContainer}>
-        <img src={img1} alt="" />
+        <img loading="lazy" src={img1} width={300} height={300} className={styles.img1} alt="" />
         <article>
           <h1>Seja Escoteiro</h1>
           <p>
@@ -15,7 +15,7 @@ export default function Volunteer() {
             Inscrever-se é fácil! <strong>Contate-nos abaixo</strong>
           </p>
           <Button>
-            Contate-nos <img src={arrowdown} width={8} height={"auto"} alt="" />
+            Contate-nos <img loading="lazy" src={arrowdown} width={8} height={"auto"} alt="" />
           </Button>
         </article>
       </section>

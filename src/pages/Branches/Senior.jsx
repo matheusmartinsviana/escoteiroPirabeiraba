@@ -18,15 +18,15 @@ export default function Senior() {
           <p className={styles.subTitle}>Este ramo reúne jovens com idade entre 15 à 17 anos, de ambos os sexos. As ativclassNameades realizadas dentro deste ramo são voltadas para o <strong>desenvolvimento físico</strong>, <strong>moral</strong>, <strong>intelectual</strong>, <strong>espiritual</strong> e por fim o <strong>crescimento social</strong>!</p>
           <div className={styles.displayCards}>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card1} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card1} alt="" />
               <p className={styles.cardName}>Inteligencia emocional e mental</p>
             </div>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card2} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card2} alt="" />
               <p className={styles.cardName}>Trabalho em equipe</p>
             </div>
             <div className={styles.card}>
-              <img className={styles.imgSenior} src={card3} alt="" />
+              <img loading="lazy" className={styles.imgSenior} src={card3} alt="" />
               <p className={styles.cardName}>Crescimento pessoal</p>
             </div>
           </div>

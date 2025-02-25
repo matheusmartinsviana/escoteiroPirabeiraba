@@ -2,7 +2,7 @@ import styles from "./styles/OurMission.module.css";
 import icon1 from "../../assets/icon1.webp";
 import icon2 from "../../assets/icon2.webp";
 import icon3 from "../../assets/icon3.webp";
-import circleImage from "../../assets/girlmoreflag.webp";
+import circleImage from "../../assets/IMG_20241005_141814.webp";
 import Button from "../General/Button";
 export default function OurMisson() {
   return (
@@ -13,7 +13,7 @@ export default function OurMisson() {
         </div>
         <div className={styles.cardsGroup}>
           <div className={styles.card}>
-            <img src={icon2} alt="" />
+            <img loading="lazy" src={icon2} alt="" />
             <h2>Construção de um Mundo Melhor</h2>
             <p>
               Ajudamos jovens a se realizarem como indivíduos e incentivamos a
@@ -21,7 +21,7 @@ export default function OurMisson() {
             </p>
           </div>
           <div className={styles.card}>
-            <img src={icon1} alt="" />
+            <img loading="lazy" src={icon1} alt="" />
             <h2>Educação e Valores</h2>
             <p>
               Contribuir para a educação de crianças, adolescentes e jovens, mediante um sistema de valores,
@@ -29,7 +29,7 @@ export default function OurMisson() {
             </p>
           </div>
           <div className={styles.card}>
-            <img src={icon3} alt="" />
+            <img loading="lazy" src={icon3} alt="" />
             <h2>Compromisso com a Promessa e Lei Escoteira</h2>
             <p>
               Orientamos os jovens com base na Promessa e Lei Escoteira, que
@@ -39,7 +39,7 @@ export default function OurMisson() {
         </div>
       </section>
       <section className={styles.ourTarget}>
-        <img src={circleImage} alt="" />
+        <img loading="lazy" src={circleImage} className={styles.circleImage} width={300} height={300} alt="" />
         <article>
           <h1>Formação de Cidadãos Plenos e Ativos</h1>
           <p>

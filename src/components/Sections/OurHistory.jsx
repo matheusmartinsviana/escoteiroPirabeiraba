@@ -1,6 +1,6 @@
 import styles from "./styles/OurHistory.module.css";
-import img1 from "../../assets/ohimg.webp";
-import img2 from "../../assets/ohimg2.webp";
+import img1 from "../../assets/IMG_20241005_155819.webp";
+import img2 from "../../assets/20241005_174013.webp";
 
 const OurHistory = () => {
   return (
@@ -28,8 +28,8 @@ const OurHistory = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img src={img1} alt="Imagem 1" className={styles.imageOne} />
-        <img src={img2} alt="Imagem 2" className={styles.imageTwo} />
+        <img loading="lazy" src={img1} alt="Imagem 1" className={styles.imageOne} />
+        <img loading="lazy" src={img2} alt="Imagem 2" className={styles.imageTwo} />
       </div>
     </div>
   );

@@ -1,5 +1,9 @@
 import styles from "./styles/Projects.module.css";
-import img1 from "../../assets/Escoteiros.webp";
+import img1 from "../../assets/IMG_20241005_145908.webp";
+import img2 from "../../assets/20241005_173122.webp";
+import img3 from "../../assets/20241005_150834.webp";
+import img4 from "../../assets/20241005_150831.webp";
+
 export default function Projects() {
   return (
     <>
@@ -50,16 +54,16 @@ export default function Projects() {
       </section>
       <section className={styles.projectsImages}>
         <figure>
-          <img src={img1} width={400} height={"auto"} alt="" />
+          <img loading="lazy" src={img1} width={400} height={300} alt="" />
         </figure>
         <figure>
-          <img src={img1} width={400} height={"auto"} alt="" />
+          <img loading="lazy" src={img2} width={400} height={300} alt="" />
         </figure>
         <figure>
-          <img src={img1} width={400} height={"auto"} alt="" />
+          <img loading="lazy" src={img3} width={400} height={300} alt="" />
         </figure>
         <figure>
-          <img src={img1} width={400} height={"auto"} alt="" />
+          <img loading="lazy" src={img4} width={400} height={300} alt="" />
         </figure>
       </section>
     </>
