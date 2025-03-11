@@ -24,7 +24,6 @@ export default function Footer() {
           <div className={styles.ramosFooter}>
             <h1>Ramos</h1>
             <h5>Lobinho</h5>
-            <h5>Alcateia</h5>
             <h5>Tropa Escoteira</h5>
             <h5>Sênior</h5>
             <h5>Pioneiro</h5>
