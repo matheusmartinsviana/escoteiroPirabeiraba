@@ -1,17 +1,14 @@
 import styles from "./styles/Projects.module.css";
-import img1 from "../../assets/IMG_20241005_145908.webp";
-import img2 from "../../assets/20241005_173122.webp";
-import img3 from "../../assets/20241005_150834.webp";
-import img4 from "../../assets/20241005_150831.webp";
+import { EmblaCarousel } from "../EmblaCarousel";
 
 export default function Projects() {
   return (
     <>
       <header id="atividades" className={styles.headerProjects}>
-        <h2>Projetos e Eventos</h2>
+        <h2 data-aos="fade-bottom">Projetos e Eventos</h2>
         <p>Projetos sociais e Eventos Anuais</p>
       </header>
-      <section className={styles.projectsContainer}>
+      <section data-aos="fade-right" className={styles.projectsContainer}>
         <article className={styles.articleProjects}>
           <h3>Projetos Sociais</h3>
           <ul>
@@ -53,7 +50,7 @@ export default function Projects() {
         </article>
       </section>
       <section className={styles.projectsImages}>
-        <figure>
+        {/* <figure>
           <img loading="lazy" src={img1} width={400} height={300} alt="" />
         </figure>
         <figure>
@@ -64,7 +61,8 @@ export default function Projects() {
         </figure>
         <figure>
           <img loading="lazy" src={img4} width={400} height={300} alt="" />
-        </figure>
+        </figure> */}
+        <EmblaCarousel />
       </section>
     </>
   );

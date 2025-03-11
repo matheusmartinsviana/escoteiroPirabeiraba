@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./styles/BannerSlider.module.css";
-
-import banner1 from "../../assets/IMG_20241005_164841.webp";
-import banner2 from "../../assets/IMG_20241005_142047.webp";
+import banner1 from "../../assets/new-images/banner1.webp";
+import banner2 from "../../assets/new-images/banner3.webp";
+import banner3 from "../../assets/new-images/banner4.webp";
 
 import Button from "../General/Button";
 const slides = [
@@ -14,9 +14,15 @@ const slides = [
   },
   {
     id: 2,
+    title: "Atividades Dinâmicas",
+    buttonValue: "Veja nossos eventos",
+    image: banner2,
+  },
+  {
+    id: 3,
     title: "Educação para todas as idades",
     buttonValue: "Saiba mais",
-    image: banner2,
+    image: banner3,
   },
 ];
 
@@ -112,7 +118,7 @@ const BannerSlider = () => {
               aria-label={`Banner: ${slide.city}, ${slide.state} - ${slide.title}`}
             >
               <div className={styles.headerText}>
-                <h2>
+                <h2 data-aos="fade-up">
                   {slide.title.slice(0, 39)}
                   <strong>{slide.title.slice(39, 48)}</strong>
                 </h2>
@@ -125,9 +131,8 @@ const BannerSlider = () => {
           {slides.map((_, index) => (
             <span
               key={index}
-              className={`${styles.owlDot} ${
-                index === currentIndex ? styles.active : ""
-              }`}
+              className={`${styles.owlDot} ${index === currentIndex ? styles.active : ""
+                }`}
               onClick={() => setCurrentIndex(index)}
               role="button"
               aria-label={`Go to slide ${index + 1}`}

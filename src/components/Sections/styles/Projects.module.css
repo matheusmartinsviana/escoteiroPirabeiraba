@@ -4,15 +4,17 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 60px;
 }
 
 .headerProjects h2 {
-  margin: 2rem 0;
   font-size: 2rem;
   color: var(--black-font-color);
 }
 
 .headerProjects p {
+  margin: 2rem 0;
+  margin-top: -5px;
   font-size: 1.2rem;
   color: #555;
 }
@@ -58,7 +60,6 @@
   align-items: center;
   gap: 10px;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   padding-bottom: 10px;
 }
 
