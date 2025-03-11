@@ -16,6 +16,7 @@ export default function Button({
       className={styles.styledButton}
       type={type || "submit"}
       onClick={onClick}
+      data-aos="fade-up"
     >
       {children}
     </button>

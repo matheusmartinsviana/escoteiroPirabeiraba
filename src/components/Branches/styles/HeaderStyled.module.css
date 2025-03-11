@@ -14,5 +14,6 @@
 .branchHeader {
   display: flex;
   flex-direction: column;
+  padding-top: 150px;
   justify-content: left;
 }

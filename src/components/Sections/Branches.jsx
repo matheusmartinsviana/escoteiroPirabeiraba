@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./styles/Branches.module.css";
-import branchicon from "../../assets/chapeu.webp";
 
 export default function Branches() {
   const navigate = useNavigate();
@@ -23,42 +22,42 @@ export default function Branches() {
       </div>
       <div className={styles.rightContent}>
         <div
+          data-aos="fade-up"
           className={styles.item}
           onClick={() => handleBranchClick("lobinho")}
         >
           <div className={styles.itemHeader}>
-            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
-            <h3>Ramo Lobinho</h3>
+            <h3>🐺 Ramo Lobinho</h3>
           </div>
           <p>(6,5 - 10 anos)</p>
         </div>
         <div
+          data-aos="fade-up"
           className={styles.item}
           onClick={() => handleBranchClick("escoteiro")}
         >
           <div className={styles.itemHeader}>
-            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
-            <h3>Ramo Escoteiro</h3>
+            <h3>⚜️ Ramo Escoteiro</h3>
           </div>
           <p>(11 - 14 anos)</p>
         </div>
         <div
+          data-aos="fade-up"
           className={styles.item}
           onClick={() => handleBranchClick("senior")}
         >
           <div className={styles.itemHeader}>
-            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
-            <h3>Ramo Sênior</h3>
+            <h3>👨 Ramo Sênior</h3>
           </div>
           <p>(15 - 17 anos)</p>
         </div>
         <div
+          data-aos="fade-up"
           className={styles.item}
           onClick={() => handleBranchClick("pioneiro")}
         >
           <div className={styles.itemHeader}>
-            <img loading="lazy" src={branchicon} width={48} height={"auto"} alt="" />
-            <h3>Ramo Pioneiro</h3>
+            <h3>🥇 Ramo Pioneiro</h3>
           </div>
           <p>(18 - 21 anos)</p>
         </div>

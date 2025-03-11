@@ -55,7 +55,7 @@ export default function Header() {
               width={70}
               height={"auto"}
             />
-            <h1>Grupo Escoteiro Pirabeiraba</ h1>
+            <h1>Grupo Escoteiros de Pirabeiraba</ h1>
           </Link>
         </div>
         <nav className={styles.nav}>
@@ -145,11 +145,13 @@ export default function Header() {
         <a href="#contato">
           <Button>Fale Conosco</Button>
         </a>
-        <div className={styles.hamburger} onClick={toggleMenu}>
+        <a href="#">
+        <div className={styles.hamburger} onClick={toggleMenu}> 
           <span className={styles.line}></span>
           <span className={styles.line}></span>
           <span className={styles.line}></span>
         </div>
+        </a>
       </header>
 
       <div

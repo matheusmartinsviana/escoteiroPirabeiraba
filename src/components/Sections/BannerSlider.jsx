@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./styles/BannerSlider.module.css";
-
 import banner1 from "../../assets/new-images/banner1.webp";
 import banner2 from "../../assets/new-images/banner3.webp";
 import banner3 from "../../assets/new-images/banner4.webp";
@@ -119,7 +118,7 @@ const BannerSlider = () => {
               aria-label={`Banner: ${slide.city}, ${slide.state} - ${slide.title}`}
             >
               <div className={styles.headerText}>
-                <h2>
+                <h2 data-aos="fade-up">
                   {slide.title.slice(0, 39)}
                   <strong>{slide.title.slice(39, 48)}</strong>
                 </h2>

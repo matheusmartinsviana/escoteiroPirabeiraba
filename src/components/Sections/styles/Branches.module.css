@@ -40,11 +40,12 @@
   flex-direction: column;
   justify-content: start;
   align-items: self-start;
+  width: 100px;
 }
 
 .itemHeader {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 10px;
 }
 
