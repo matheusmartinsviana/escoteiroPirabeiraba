@@ -7,9 +7,11 @@ export default function Button({
   type,
   onClick,
   disabled,
+  link,
+  targetBlank
 }) {
   return (
-    <button
+    <a
       disabled={disabled}
       name={name}
       value={value}
@@ -17,8 +19,10 @@ export default function Button({
       type={type || "submit"}
       onClick={onClick}
       data-aos="fade-up"
+      href={link}
+      target={ targetBlank ? "_blank" : null }
     >
       {children}
-    </button>
+    </a>
   );
 }

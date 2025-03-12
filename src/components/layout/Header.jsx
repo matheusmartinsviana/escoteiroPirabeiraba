@@ -55,7 +55,7 @@ export default function Header() {
               width={70}
               height={"auto"}
             />
-            <h1>Grupo Escoteiros de Pirabeiraba</ h1>
+            <h1>Grupo Escoteiros Pirabeiraba</ h1>
           </Link>
         </div>
         <nav className={styles.nav}>
@@ -89,9 +89,8 @@ export default function Header() {
             >
               Ramos
               <ul
-                className={`${styles.subMenu} ${
-                  isSubMenuOpen ? styles.subMenuActive : ""
-                }`}
+                className={`${styles.subMenu} ${isSubMenuOpen ? styles.subMenuActive : ""
+                  }`}
               >
                 <li>
                   <Link
@@ -140,31 +139,35 @@ export default function Header() {
                 Contato
               </a>
             </li>
+            <li>
+              <a
+                className={styles.linkButton}
+                href={handleAnchorClick("#contato")}
+                onClick={closeMenu}
+              >
+                Fale Conosco
+              </a>
+            </li>
           </ul>
         </nav>
-        <a href="#contato">
-          <Button>Fale Conosco</Button>
-        </a>
         <a href="#">
-        <div className={styles.hamburger} onClick={toggleMenu}> 
-          <span className={styles.line}></span>
-          <span className={styles.line}></span>
-          <span className={styles.line}></span>
-        </div>
+          <div className={styles.hamburger} onClick={toggleMenu}>
+            <span className={styles.line}></span>
+            <span className={styles.line}></span>
+            <span className={styles.line}></span>
+          </div>
         </a>
       </header>
 
       <div
-        className={`${styles.overlay} ${
-          isMenuOpen ? styles.overlayActive : ""
-        }`}
+        className={`${styles.overlay} ${isMenuOpen ? styles.overlayActive : ""
+          }`}
         onClick={toggleMenu}
       ></div>
 
       <div
-        className={`${styles.animatedMenu} ${
-          isMenuOpen ? styles.menuActive : ""
-        }`}
+        className={`${styles.animatedMenu} ${isMenuOpen ? styles.menuActive : ""
+          }`}
       >
         <div className={styles.headerLogoContainer}>
           <Link to="/" onClick={closeMenu}>
@@ -201,9 +204,8 @@ export default function Header() {
           >
             Ramos
             <ul
-              className={`${styles.subMenu} ${
-                isSubMenuOpen ? styles.subMenuActive : ""
-              }`}
+              className={`${styles.subMenu} ${isSubMenuOpen ? styles.subMenuActive : ""
+                }`}
             >
               <li>
                 <Link
@@ -252,10 +254,16 @@ export default function Header() {
               Contato
             </a>
           </li>
+          <li>
+            <a
+              className={styles.linkButton}
+              href={handleAnchorClick("#contato")}
+              onClick={closeMenu}
+            >
+              Fale Conosco
+            </a>
+          </li>
         </ul>
-        <a href="#contato">
-          <Button onClick={closeMenu}>Fale Conosco</Button>
-        </a>
       </div>
     </>
   );

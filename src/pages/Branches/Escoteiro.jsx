@@ -48,8 +48,7 @@ export default function Escoteiro() {
 
           <p className={styles.subText}><strong> -&gt; </strong>A vivência no Ramo Escoteiro vai além do cotidiano: acampamentos, excursões e
             outras aventuras em meio à natureza proporcionam momentos inesquecíveis, sempre com o acompanhamento atento dos chefes escoteiros.
-            O lema “Sempre Alerta” guia suas ações e é uma lembrança constante da prontidão e empatia que permeiam a vida escoteira. A saudação
-            com a mão esquerda simboliza a irmandade entre os escoteiros e reforça o vínculo de confiança e respeito mútuo.
+            O lema “Sempre Alerta” guia suas ações e é uma lembrança constante da prontidão e empatia que permeiam a vida escoteira. Aperto de mão esquerda simboliza a irmandade entre os escoteiros e reforça o vínculo de confiança e respeito mútuo.
           </p>
 
           <p className={styles.subText}><strong> -&gt; </strong>Ao se aproximarem dos 15 anos, os jovens iniciam um período de transição para o
