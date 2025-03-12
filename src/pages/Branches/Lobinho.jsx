@@ -15,10 +15,8 @@ export default function Lobinho() {
             }
           />
           <div className={styles.loboContainer}>
-            <p className={styles.subTitle}>Este ramo reúne crianças com idade entre 6,5 à  10 anos, de ambos os sexos.
-              O principal objetivo nos lobinhos é trabalhar a <strong>socialização e a imaginação</strong>, tudo isso utilizando como “fundo de cena”
-              a obra do escritor Rudyard Kipling, <strong>“Mowgli, o menino lobo”.</strong> Desse modo, as atividades são baseadas na história do
-              menino que aprendeu a sobreviver na selva com os lobos.</p>
+            <p className={styles.subTitle}>Entre os 6,5 e os 10 anos, somos lobinhos. 
+            A ênfase educativa do ramo lobinho é a socialização, utilizando como fundo de cena a obra do escritor Rudyard  Kipling,“O Livro da Jângal”, que retrata as aventuras de Mowgli, o menino lobo.</p>
             <div className={styles.displayCards}>
               <div className={styles.card}>
                 <img loading="lazy" className={styles.imgLobo} src={card1} alt="" />
@@ -46,7 +44,7 @@ export default function Lobinho() {
             <p className={styles.subText}><strong> -&gt; </strong>O lobinho é limpo e está sempre alegre;</p>
             <p className={styles.subText}><strong> -&gt; </strong>O Lobinho diz sempre a verdade.</p><br />
             <p className={styles.info}>Antes de completar 11 anos são encaminhados para o <strong>Ramo Escoteiro.</strong>
-              Nesse período, é feita uma Cerimônia de Passagem, para que possam nos despedir da alcateia.</p><br />
+              Nesse período, é feita uma Cerimônia de Passagem, para que possam se despedir da alcateia.</p><br />
           </div>
         </div>
       </div>

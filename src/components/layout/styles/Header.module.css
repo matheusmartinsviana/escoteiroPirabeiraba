@@ -10,6 +10,25 @@
   z-index: 9999;
 }
 
+.linkButton {
+  background-color: var(--brand-main-color);
+  border: 0;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  max-width: 200px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.linkButton:hover {
+  background-color: #ad2121de;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+
 .headerLogoContainer {
   display: flex;
   align-items: center;
@@ -70,15 +89,18 @@
   .headerLogoContainer {
     text-align: center;
   }
+
   .header button {
     display: none;
   }
+
   .navItens {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .nav {
     display: none;
     flex-direction: column;

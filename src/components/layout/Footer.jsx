@@ -24,7 +24,6 @@ export default function Footer() {
           <div className={styles.ramosFooter}>
             <h1>Ramos</h1>
             <h5>Lobinho</h5>
-            <h5>Alcateia</h5>
             <h5>Tropa Escoteira</h5>
             <h5>Sênior</h5>
             <h5>Pioneiro</h5>
@@ -33,7 +32,7 @@ export default function Footer() {
             <h1>Contato</h1>
             <h5>Gostaria de saber mais ou tem alguma dúvida?</h5>
             <h5>Envie-nos uma mensagem!</h5>
-            <Button>Fale Conosco</Button>
+            <Button link="#contato">Fale Conosco</Button>
           </div>
         </div>
       </footer>
