@@ -3,6 +3,7 @@ import styles from "./styles/BannerSlider.module.css";
 import banner1 from "../../assets/new-images/banner1.webp";
 import banner2 from "../../assets/new-images/banner3.webp";
 import banner3 from "../../assets/new-images/banner4.webp";
+// import contact from "./Contact";
 
 import Button from "../General/Button";
 const slides = [
@@ -11,18 +12,21 @@ const slides = [
     title: "Construindo um mundo melhor através do escotismo",
     buttonValue: "Venha fazer parte",
     image: banner1,
+    link: "#contato"
   },
   {
     id: 2,
     title: "Atividades Dinâmicas",
     buttonValue: "Veja nossos eventos",
     image: banner2,
+    link: "#contato"
   },
   {
     id: 3,
     title: "Educação para todas as idades",
     buttonValue: "Saiba mais",
     image: banner3,
+    link: "#contato"
   },
 ];
 
@@ -122,7 +126,7 @@ const BannerSlider = () => {
                   {slide.title.slice(0, 39)}
                   <strong>{slide.title.slice(39, 48)}</strong>
                 </h2>
-                <Button>{slide.buttonValue}</Button>
+                <Button link={slide.link}>{slide.buttonValue}</Button>
               </div>
             </div>
           ))}

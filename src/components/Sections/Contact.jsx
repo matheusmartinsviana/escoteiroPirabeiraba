@@ -26,7 +26,7 @@ export default function Contact() {
       `Olá, vim pelo site dos Escoteiros de Pirabeiraba. Meu nome é ${formData.name}. ${formData.surname}\nEmail: ${formData.email}\nMensagem: ${formData.message}`
     );
 
-    const phoneNumber = "1234567890";
+    const phoneNumber = "47999942895";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
     window.open(whatsappURL, "_blank");

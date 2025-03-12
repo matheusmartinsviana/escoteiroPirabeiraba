@@ -47,7 +47,7 @@ export default function OurMisson() {
             para que alcancem seu pleno potencial físico, intelectual, social, afetivo, espiritual, e do caráter, como cidadãos responsáveis e
             membros ativos em suas comunidades local, nacional e internacional.
           </p>
-          <Button>Saiba Mais</Button>
+          <Button link="#voluntario">Saiba Mais</Button>
         </article>
       </section>
     </>

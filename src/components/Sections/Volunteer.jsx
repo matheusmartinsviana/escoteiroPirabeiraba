@@ -14,7 +14,7 @@ export default function Volunteer() {
             Interessado em fazer parte do Grupo Escoteiro Pirabeiraba?
             Inscrever-se é fácil! <strong>Contate-nos abaixo</strong>
           </p>
-          <Button>
+          <Button targetBlank={true} link="https://api.whatsapp.com/send/?phone=5547999942895&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20ser%20um%20volunt%C3%A1rio!&type=phone_number&app_absent=0">
             Contate-nos <img loading="lazy" src={arrowdown} width={8} height={"auto"} alt="" />
           </Button>
         </article>

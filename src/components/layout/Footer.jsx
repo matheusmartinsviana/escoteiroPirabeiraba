@@ -32,7 +32,7 @@ export default function Footer() {
             <h1>Contato</h1>
             <h5>Gostaria de saber mais ou tem alguma dúvida?</h5>
             <h5>Envie-nos uma mensagem!</h5>
-            <Button>Fale Conosco</Button>
+            <Button link="#contato">Fale Conosco</Button>
           </div>
         </div>
       </footer>
