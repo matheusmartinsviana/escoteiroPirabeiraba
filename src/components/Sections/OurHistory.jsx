@@ -28,8 +28,8 @@ const OurHistory = () => {
         </p>
       </div>
       <div className={styles.imageContainer} data-aos="fade-left">
-        <img loading="lazy" src={img2} alt="Imagem 2" className={styles.imageTwo} />
         <img loading="lazy" src={img1} alt="Imagem 1" className={styles.imageOne} />
+        <img loading="lazy" src={img2} alt="Imagem 2" className={styles.imageTwo} />
       </div>
     </div>
   );

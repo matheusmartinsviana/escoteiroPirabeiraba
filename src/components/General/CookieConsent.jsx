@@ -15,7 +15,7 @@ export default function CookieConsent({ onAccept }) {
   const handleAccept = () => {
     localStorage.setItem("cookieConsent", "true");
     setIsVisible(false);
-    onAccept();
+    onAccept;
   };
 
   return (

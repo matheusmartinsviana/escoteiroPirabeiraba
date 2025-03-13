@@ -18,9 +18,11 @@
   color: white;
   cursor: pointer;
   transition: all ease-in-out 0.3s;
-  max-width: 200px;
+  max-width: 100%;
   font-size: 1rem;
   position: relative;
+  width: auto; 
+  white-space: nowrap;
 }
 
 .linkButton:hover {
@@ -28,6 +30,19 @@
   color: rgba(255, 255, 255, 0.904);
 }
 
+@media (max-width: 768px) {
+  .linkButton {
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .linkButton {
+    padding: 8px 15px; 
+    font-size: 0.8rem; 
+  }
+}
 
 .headerLogoContainer {
   display: flex;

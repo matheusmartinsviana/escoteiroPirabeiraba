@@ -20,7 +20,7 @@ export default function Button({
       onClick={onClick}
       data-aos="fade-up"
       href={link}
-      target={ targetBlank ? "_blank" : null }
+      target={targetBlank ? "_blank" : null}
     >
       {children}
     </a>

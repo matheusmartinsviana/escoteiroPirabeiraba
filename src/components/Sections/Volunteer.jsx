@@ -15,7 +15,7 @@ export default function Volunteer() {
             Inscrever-se é fácil! <strong>Contate-nos abaixo</strong>
           </p>
           <Button targetBlank={true} link="https://api.whatsapp.com/send/?phone=5547999942895&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20ser%20um%20volunt%C3%A1rio!&type=phone_number&app_absent=0">
-            Contate-nos <img loading="lazy" src={arrowdown} width={8} height={"auto"} alt="" />
+            Ir para o whatsapp
           </Button>
         </article>
       </section>

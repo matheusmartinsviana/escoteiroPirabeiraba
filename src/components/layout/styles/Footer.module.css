@@ -81,3 +81,37 @@
     width: 100px;
   }
 }
+
+.linkButton {
+  background-color: var(--brand-main-color);
+  border: 0;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  max-width: 100%;
+  font-size: 1rem;
+  position: relative;
+  width: auto; 
+  white-space: nowrap;
+}
+
+.linkButton:hover {
+  background-color: #ad2121de;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+@media (max-width: 768px) {
+  .linkButton {
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .linkButton {
+    padding: 8px 15px; 
+    font-size: 0.8rem; 
+  }
+}
