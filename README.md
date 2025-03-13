@@ -1,4 +1,4 @@
-# Sistema Web para o Grupo de Escoteiros de Pirabeiraba - SC
+# Site para o Grupo de Escoteiros de Pirabeiraba - SC
 
 Este repositório contém o código-fonte do sistema web desenvolvido como parte de um projeto de extensão para o **Grupo de Escoteiros de Pirabeiraba**, localizado em **Santa Catarina**. O objetivo principal do sistema é facilitar a gestão de atividades, membros e eventos do grupo, promovendo uma comunicação eficiente entre líderes, pais e escoteiros.
 
