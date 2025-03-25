@@ -25,15 +25,15 @@ export default function Pioneiro() {
           <div className={styles.displayCards}>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgSenior} src={card1} alt="" />
-              <p className={styles.cardName}>Propósito de "Servir"</p>
+              <p className={styles.cardName}>Projeto de Vida</p>
             </div>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgSenior} src={card2} alt="" />
-              <p className={styles.cardName}>Apoio Mútuo entre os Membros</p>
+              <p className={styles.cardName}>Cidadania</p>
             </div>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgSenior} src={card3} alt="" />
-              <p className={styles.cardName}>Cerimônia de Partida e a passagem para o voluntariado</p>
+              <p className={styles.cardName}>Visão do Mundo</p>
             </div>
           </div>
           <div className={styles.displayInfo}>
