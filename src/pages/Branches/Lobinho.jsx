@@ -28,7 +28,7 @@ export default function Lobinho() {
               </div>
               <div className={styles.card}>
                 <img loading="lazy" className={styles.imgLobo} src={card3} alt="" />
-                <p className={styles.cardName}>Respeito</p>
+                <p className={styles.cardName}>Experiência</p>
               </div>
             </div>
             <div className={styles.line}></div>

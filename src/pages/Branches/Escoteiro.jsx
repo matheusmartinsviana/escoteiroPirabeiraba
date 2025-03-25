@@ -13,29 +13,29 @@ export default function Escoteiro() {
           <HeaderStyled
             branch={"Escoteiro"}
             description={
-              "Explorando Novos Territórios com Autonomia e Trabalho em Equipe."
+              ""
             }
           />
 
           <p className={styles.subTitle}>O Ramo Escoteiro acolhe adolescentes de ambos os sexos, com idades entre 11 e 14 anos,
             em uma jornada voltada para o desenvolvimento da autonomia e fortalecimento do espírito de equipe. Fundamentado na
             vida em patrulhas e na conexão com a natureza, este Ramo inspira seus participantes com o marco simbólico:
-            <strong> “Explorar novos territórios com um grupo de amigos”.</strong>
+            <strong> “Descobrir novos territórios com um grupo de amigos”.</strong>
           </p>
 
 
           <div className={styles.displayCards}>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgEscoteiro} src={card1} alt="" />
-              <p className={styles.cardName}>Desenvolvimento da Autonomia</p>
+              <p className={styles.cardName}>Autonomia</p>
             </div>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgEscoteiro} src={card2} alt="" />
-              <p className={styles.cardName}>Fortalecimento</p>
+              <p className={styles.cardName}>Descoberta</p>
             </div>
             <div className={styles.card}>
               <img loading="lazy" className={styles.imgEscoteiro} src={card3} alt="" />
-              <p className={styles.cardName}>Espirito de Equipe</p>
+              <p className={styles.cardName}>Vida em Equipe</p>
             </div>
           </div>
           <div className={styles.line}></div>
