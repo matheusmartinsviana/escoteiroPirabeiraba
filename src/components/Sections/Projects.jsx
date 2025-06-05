@@ -1,5 +1,6 @@
 import styles from "./styles/Projects.module.css";
 import { EmblaCarousel } from "../EmblaCarousel";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -47,6 +48,11 @@ export default function Projects() {
               anteriores e inscreva-se para a próxima edição!
             </li>
           </ul>
+          <Link
+            className={styles.linkToEvents}
+            to="/eventos">
+            Confira os eventos
+          </Link>
         </article>
       </section>
       <section className={styles.projectsImages}>
