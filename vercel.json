@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://admin-app-escoteiros.vercel.app/api/:path*"
+        }
+    ]
+}
