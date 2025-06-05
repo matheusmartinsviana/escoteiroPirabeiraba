@@ -10,6 +10,13 @@ const EventCard = ({ event }) => {
             year: "numeric",
         })
     }
+    const formatDateMonth = (dateString) => {
+        const date = new Date(dateString)
+        return date.toLocaleDateString("pt-BR", {
+            day: "numeric",
+            month: "numeric",
+        })
+    }
 
     const formatTime = (timeString) => {
         return timeString ? timeString.substring(0, 5) : ""
@@ -26,8 +33,11 @@ const EventCard = ({ event }) => {
                     </div>
                 )}
                 <div className={styles.eventBadge}>
-                    <span className={styles.badgeIcon}>📍</span>
+                    <span className={styles.badgeIcon}>
+                        {formatDateMonth(event.event_date)}
+                    </span>
                 </div>
+
             </div>
 
             <div className={styles.eventContent}>
