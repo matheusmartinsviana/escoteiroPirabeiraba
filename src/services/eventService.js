@@ -30,9 +30,13 @@ export const eventService = {
 
                 const now = new Date();
 
-                // Separar eventos futuros e passados
-                const upcoming = mockEvents.filter((event) => new Date(event.event_date) >= now);
-                const past = mockEvents.filter((event) => new Date(event.event_date) < now);
+                // Separar eventos futuros e passados, excluindo os cancelados
+                const upcoming = mockEvents.filter((event) =>
+                    new Date(event.event_date) >= now && event.status !== 'cancelado'
+                );
+                const past = mockEvents.filter((event) =>
+                    new Date(event.event_date) < now && event.status !== 'cancelado'
+                );
 
                 // Ordenar eventos
                 upcoming.sort((a, b) => new Date(a.event_date) - new Date(b.event_date));
@@ -61,9 +65,13 @@ export const eventService = {
 
             const now = new Date();
 
-            // Separar eventos futuros e passados
-            const upcoming = formattedEvents.filter((event) => new Date(event.event_date) >= now);
-            const past = formattedEvents.filter((event) => new Date(event.event_date) < now);
+            // Separar eventos futuros e passados, excluindo os cancelados
+            const upcoming = formattedEvents.filter((event) =>
+                new Date(event.event_date) >= now && event.status !== 'cancelado'
+            );
+            const past = formattedEvents.filter((event) =>
+                new Date(event.event_date) < now && event.status !== 'cancelado'
+            );
 
             // Ordenar eventos
             upcoming.sort((a, b) => new Date(a.event_date) - new Date(b.event_date));
