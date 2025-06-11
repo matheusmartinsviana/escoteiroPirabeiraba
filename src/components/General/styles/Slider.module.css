@@ -3,6 +3,7 @@
   margin: 0 auto;
   margin-top: 30px;
   min-height: 100%;
+  padding: 0 20px;
 }
 
 .header {
@@ -28,6 +29,8 @@
 .sliderContainer {
   position: relative;
   padding: 0 10px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .slider {
@@ -35,17 +38,21 @@
   overflow: hidden;
   padding: 20px;
   outline: none;
+  width: 100%;
 }
 
 .slidesTrack {
   display: grid;
   transition: transform 0.5s ease;
   width: 100%;
+  gap: 20px;
 }
 
 .slide {
   padding: 0 10px;
   box-sizing: border-box;
+  min-width: 280px;
+  width: 100%;
 }
 
 .eventCard {
@@ -301,13 +308,13 @@
   .content {
     padding: 20px;
   }
+
+  .slide {
+    min-width: 240px;
+  }
 }
 
 @media (max-width: 767px) {
-  .container {
-    padding: 20px 10px;
-  }
-
   .header {
     margin-bottom: 40px;
   }
@@ -342,11 +349,11 @@
   }
 
   .prevButton {
-    left: 5px;
+    left: 10px;
   }
 
   .nextButton {
-    right: 5px;
+    right: 10px;
   }
 
   .imageContainer {
@@ -356,9 +363,17 @@
   .indicators {
     margin-top: 30px;
   }
+
+  .slide {
+    min-width: 200px;
+  }
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 20px 10px;
+  }
+
   .prevButton {
     left: -15px;
   }
@@ -377,6 +392,10 @@
     left: 12px;
     padding: 6px 10px;
     font-size: 0.8rem;
+  }
+
+  .slide {
+    min-width: 160px;
   }
 }
 

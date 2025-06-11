@@ -58,7 +58,7 @@ const Events = () => {
         <div className={styles.eventsPage}>
             <div className="container">
                 {/* Seção de Eventos Próximos */}
-                <section className={styles.upcomingEvents}>
+                <section className={styles.projectsSlider}>
                     <EventSlider />
                 </section>
 

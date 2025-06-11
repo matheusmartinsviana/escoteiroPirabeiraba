@@ -163,6 +163,8 @@ export default function EventSlider() {
         )
     }
 
+    const showNavigation = events.length > slidesToShow;
+
     return (
         <div className={styles.container}>
             <div className={styles.header}>
@@ -175,8 +177,11 @@ export default function EventSlider() {
                     <div
                         className={styles.slidesTrack}
                         style={{
-                            transform: `translateX(-${currentSlide * (100 / slidesToShow)}%)`,
-                            gridTemplateColumns: `repeat(${events.length}, ${100 / slidesToShow}%)`,
+                            transform: showNavigation ? `translateX(-${currentSlide * (100 / slidesToShow)}%)` : 'none',
+                            gridTemplateColumns: showNavigation
+                                ? `repeat(${events.length}, ${100 / slidesToShow}%)`
+                                : `repeat(${events.length}, 1fr)`,
+                            gap: showNavigation ? '0' : '20px'
                         }}
                     >
                         {events.map((event) => (
@@ -220,7 +225,7 @@ export default function EventSlider() {
                     </div>
 
                     {/* Navigation Arrows */}
-                    {currentSlide > 0 && (
+                    {showNavigation && currentSlide > 0 && (
                         <button
                             className={`${styles.navButton} ${styles.prevButton}`}
                             onClick={prevSlide}
@@ -230,7 +235,7 @@ export default function EventSlider() {
                         </button>
                     )}
 
-                    {currentSlide < maxSlide && (
+                    {showNavigation && currentSlide < maxSlide && (
                         <button
                             className={`${styles.navButton} ${styles.nextButton}`}
                             onClick={nextSlide}
@@ -241,7 +246,7 @@ export default function EventSlider() {
                     )}
 
                     {/* Indicators */}
-                    {maxSlide > 0 && (
+                    {showNavigation && maxSlide > 0 && (
                         <div className={styles.indicators} role="tablist" aria-label="Indicadores de slide">
                             {Array.from({ length: maxSlide + 1 }, (_, index) => (
                                 <button

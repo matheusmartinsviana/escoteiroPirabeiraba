@@ -10,17 +10,17 @@ export const mockEvents = [
         max_participants: 50,
         current_participants: 25
     },
-    {
-        id: 5,
-        title: "Acampamento de Verão",
-        description: "Um acampamento emocionante com atividades ao ar livre",
-        event_date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(), // 7 dias no futuro
-        location: "Parque Municipal",
-        image_url: "https://picsum.photos/800/400",
-        registration_deadline: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000).toISOString(),
-        max_participants: 50,
-        current_participants: 25
-    },
+    // {
+    //     id: 5,
+    //     title: "Acampamento de Verão",
+    //     description: "Um acampamento emocionante com atividades ao ar livre",
+    //     event_date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(), // 7 dias no futuro
+    //     location: "Parque Municipal",
+    //     image_url: "https://picsum.photos/800/400",
+    //     registration_deadline: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000).toISOString(),
+    //     max_participants: 50,
+    //     current_participants: 25
+    // },
     {
         id: 6,
         title: "Acampamento de Verão",
